@@ -1,0 +1,84 @@
+// JooLun自定义css
+.jl-tips-class{
+  color: #999999;
+  font-size: 13px;
+  font-weight: 350;
+}
+
+.jl-img-width{
+  width: 68px;
+}
+.jl-money-text{
+  color: red;
+}
+.jl-title{
+  color: #1f66e0;
+}
+
+.jl-money-text::before {
+  content: "¥";
+  font-size: 80%;
+  margin-right: 2px;
+}
+
+.jl-text-line1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.jl-text-line2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.jl-text-left{
+  text-align: left;
+}
+.jl-flex{
+  display: flex;
+}
+
+.jl-flex-sub {
+  flex: 1;
+}
+
+.jl-flex-twice {
+  flex: 2;
+}
+
+.jl-flex-treble {
+  flex: 3;
+}
+.jl-align-start {
+  align-items: flex-start;
+}
+
+.jl-align-end {
+  align-items: flex-end;
+}
+
+.jl-align-center {
+  align-items: center;
+}
+
+
+.jl-justify-start {
+  justify-content: flex-start;
+}
+
+.jl-justify-end {
+  justify-content: flex-end;
+}
+
+.jl-justify-center {
+  justify-content: center;
+}
+
+.jl-justify-between {
+  justify-content: space-between;
+}
